@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Чат с Ботом</title>
+	<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+	<div class="chat-container">
+    <div class="header"><div class="text1">Чат-Бот</div><div class="text2">Прикладные решения</div></div>
+		<div id="messages" class="messages"></div>
+		<input type="text" id="userInput" placeholder="Введите сообщение..." />
+		<button onclick="sendMessage()">Отправить</button>
+	</div>
+</body>
+<script src="{{ url_for('static', filename='script.js') }}"></script>
+</html>
