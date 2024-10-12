@@ -44,6 +44,9 @@ data: An array of requests and responses that is used to train the model.
 - "Расскажи о компании"
 - "Посчитай, 2 + 2"
 
+![image](https://github.com/user-attachments/assets/77a8d236-9725-4e3a-bfa8-0c2275ee360d)
+
+
 **Dependencies**
 
 - Flask
